@@ -5,24 +5,24 @@ import { Calendar, MapPin } from "lucide-react"
 
 const WorkExperience = () => {
   const experiences = [
-    {
-      position: "Frontend Developer Intern",
-      company: "TechStart Solutions",
-      location: "Remote",
-      duration: "Jun 2024 - Present",
-      description:
-        "Developed responsive web applications using React and Next.js. Collaborated with design team to implement pixel-perfect UI components and improved website performance by 40%.",
-      technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
-    },
-    {
-      position: "Web Development Freelancer",
-      company: "Self-Employed",
-      location: "Remote",
-      duration: "Jan 2024 - May 2024",
-      description:
-        "Built custom websites for small businesses and startups. Managed full project lifecycle from client consultation to deployment, delivering 5+ successful projects.",
-      technologies: ["HTML5", "CSS3", "JavaScript", "WordPress", "PHP"],
-    },
+{
+  position: "Software Engineer Intern",
+  company: "AI Alphatech",
+  location: "Remote",
+  duration: "Oct 2024 - Jul 2025",
+  description:
+    "Engineered and optimized backend APIs using Node.js and Express, improving response time by 30%. Designed mobile-responsive UIs with React and Next.js, and implemented JWT-based role-based access control.",
+  technologies: ["Next.js", "React", "Node.js", "Express", "MUI", "MongoDB", "JWT", "Jest"],
+},
+{
+  position: "Software Engineer Intern (Virtual)",
+  company: "J.P. Morgan",
+  location: "Remote",
+  duration: "Aug 2024 - Sep 2024",
+  description:
+    "Fixed UI bugs and implemented live data visualizations using Perspective. Developed internal app components to enhance trader experience and presented technical insights to stakeholders.",
+  technologies: ["JavaScript", "HTML", "CSS", "Perspective", "Git"],
+},
   ]
 
   return (
