@@ -99,9 +99,9 @@ const Hero = () => {
 
           <motion.div variants={itemVariants} className="flex justify-center space-x-6">
             {[
-              { icon: Github, href: "https://github.com", label: "GitHub" },
-              { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-              { icon: Mail, href: "mailto:lokesh@example.com", label: "Email" },
+              { icon: Github, href: "https://github.com/lokeshhpatil", label: "GitHub" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/lokeshhpatil", label: "LinkedIn" },
+              { icon: Mail, href: "mailto:lokeshpatil8975@gmail.com", label: "Email" },
             ].map(({ icon: Icon, href, label }) => (
               <motion.a
                 key={label}
